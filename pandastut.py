@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 
 population = pd.Series([1,2.5,3,4,5])
+print(population.sum(),'this is sum of the population')
 print(population)
 population.name = 'pop'
 print(population)
